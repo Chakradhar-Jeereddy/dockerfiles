@@ -1,4 +1,4 @@
 FROM almalinux:9
-RUN dnf install nginx -y; useradd nginx
+RUN dnf install nginx -y; useradd chakra
     
 
