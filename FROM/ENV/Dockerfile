@@ -1,4 +1,5 @@
 FROM almalinux:9
 ENV COURSE="DOCKER" \
     TRAINER="CHAKRA" \
-    DURATION="10HRS" \
+    DURATION="10HRS" 
+CMD ["sleep", "1000"]
