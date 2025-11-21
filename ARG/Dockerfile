@@ -4,3 +4,4 @@ ARG course="chakra" \
     subj = "docker"
 ENV course=${course} \
     subj=${subj}
+CMD [ "ping","google.com" ]
