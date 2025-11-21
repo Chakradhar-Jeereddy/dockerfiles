@@ -1,5 +1,5 @@
 FROM almalinux:9
-ENV COURSE="DOCKER" \
-    TRAINER="CHAKRA" \
-    DURATION="10HRS" 
-CMD ["sleep", "1000"]
+ENV firm=sg \
+    name=chakra \
+    app=python
+CMD [ "ping", "google.com" ]
